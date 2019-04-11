@@ -6,7 +6,7 @@
 #    By: dmorgil <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/12/10 17:38:22 by dmorgil           #+#    #+#              #
-#    Updated: 2019/03/06 02:56:54 by suvitiel         ###   ########.fr        #
+#    Updated: 2019/04/11 14:06:41 by dmorgil          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ INCLUDES_D	=	includes
 _INCLUDES	=	42sh.h
 INCLUDES	= 	$(addprefix $(INCLUDES_D)/,$(_INCLUDES))
 
-_MAIN_FS	=	main.c
+_MAIN_FS	=	42sh.c
 
 MAIN_FS		=	$(addprefix $(SRCD)/,$(_MAIN_FS))
 MAIN_O		=	$(_MAIN_FS:.c=.o)
