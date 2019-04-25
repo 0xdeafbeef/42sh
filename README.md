@@ -165,6 +165,9 @@ ___
 *   Гит история и нормальные коммиты
 *   Автоматизированные тесты
 
+## Links 
+*   [gnu builtins](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html) 
+*  [bash tokens](http://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html)
 
 
 
